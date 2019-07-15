@@ -18,14 +18,15 @@ img{
       width: 50%;
 border-style: solid;
 float: right;
+.logoimage{
+  height: 50px;
+  width: 250px;
 }
-p, h2{
-font-family: "Indie Flower";
-  font-size: 150%;
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
 }
-h2{
-  font-size: 300%;
-}
+
 
         .logoimage{
           height: 50px;
@@ -116,103 +117,4 @@ h2{
                 color: rgba(255, 255, 255, 1);
             }
         }
-        #return-to-top {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: rgb(0, 0, 0);
-      background: rgba(0, 0, 0, 0.7);
-      width: 50px;
-      height: 50px;
-      display: block;
-      text-decoration: none;
-      -webkit-border-radius: 35px;
-      -moz-border-radius: 35px;
-      border-radius: 35px;
-      display: none;
-      -webkit-transition: all 0.3s linear;
-      -moz-transition: all 0.3s ease;
-      -ms-transition: all 0.3s ease;
-      -o-transition: all 0.3s ease;
-      transition: all 0.3s ease;
-  }
-  #return-to-top i {
-      color: #fff;
-      margin: 0;
-      position: relative;
-      left: 16px;
-      top: 13px;
-      font-size: 19px;
-      -webkit-transition: all 0.3s ease;
-      -moz-transition: all 0.3s ease;
-      -ms-transition: all 0.3s ease;
-      -o-transition: all 0.3s ease;
-      transition: all 0.3s ease;
-  }
-  #return-to-top:hover {
-      background: rgba(0, 0, 0, 0.9);
-  }
-  #return-to-top:hover i {
-      color: #fff;
-      top: 5px;
-  }
-.rotate90{
-  margin-top: 3.7%;
-    max-width: 30%;
-  -webkit-transform: rotate(90deg);
-}
-* {
-  box-sizing: border-box;
-}
-
-.columns {
-  float: left;
-  width: 33.3%;
-  padding: 8px;
-}
-
-.price {
-  list-style-type: none;
-  border: 1px solid #eee;
-  margin: 0;
-  padding: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
-}
-
-.price .header {
-  background-color: #111;
-  color: white;
-  font-size: 25px;
-}
-
-.price li {
-  border-bottom: 1px solid #eee;
-  padding: 20px;
-  text-align: center;
-}
-
-.price .grey {
-  background-color: #eee;
-  font-size: 20px;
-}
-
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-@media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
-  }
-}
+/* Skeetre */
