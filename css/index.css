@@ -22,7 +22,9 @@ float: right;
 p, h2{
 font-family: "Indie Flower";
   font-size: 150%;
+  text-align: center;
 }
+
 h2{
   font-size: 300%;
 }
@@ -216,3 +218,14 @@ h2{
     width: 100%;
   }
 }
+.button1 {
+  border: none;
+  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
